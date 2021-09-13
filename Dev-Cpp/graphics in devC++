@@ -1,0 +1,19 @@
+PASTE IT IN THE PROJECT OPTIONS > PARAMETERS > LINKERS
+
+-lbgi
+-lgdi32
+-lcomdlg32
+-luuid
+-loleaut32
+-lole32
+
+SAMPLE PROGRAM TO TEST :
+
+#include <graphics.h>
+
+int main()
+{
+    initwindow600,500,"TUTORIAL");
+    getch();
+    closegraph();
+}
